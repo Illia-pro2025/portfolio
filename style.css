@@ -1,0 +1,28 @@
+:root{
+    --accent: #95e1d3;
+    --hover:#f38181;
+    --black: #333333;
+    --grey: #B6B6B6;
+    --white:#FFF;
+    
+
+}
+body{
+ font-family: "Roboto",sans-serif;
+ font-size: 15px;
+ line-height: 1.5;
+ letter-spacing: 0%;
+ color: var(--grey);
+ background-color: var(--white);
+}
+.logo{
+    font-family: "monserrat";
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 1.2; 
+   letter-spacing: 0%;
+   color: var(--accent);
+}
+.logo:hover{
+    color: var(--hover);
+}
