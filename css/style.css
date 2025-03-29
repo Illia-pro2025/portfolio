@@ -15,6 +15,13 @@ body{
  color: var(--grey);
  background-color: var(--white);
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 68px;
+}
 .container{
     width: 1230px;
     padding: 0 15px;
@@ -31,4 +38,66 @@ body{
 }
 .logo:hover{
     color: var(--hover);
+}
+.invisible{
+    display: none;
+}
+.nav-list{
+    
+
+    display: flex;
+    gap: 55px;
+}
+.nav-link{
+    font-family: "montserrat"sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--accent);
+}
+.nav-link:hover{
+    color: var(--hover);
+}
+.section-pretitle {
+    font-family:"kaushan script";
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--black);
+    text-align: center;
+
+
+}
+.section-title {
+    margin-bottom: 110px;
+    font-family: "Montserrat";
+font-weight: 700;
+font-size: 30px;
+color: var(--black);
+text-align: center;
+
+}
+.wrap-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-list>li{
+   width: 330px;
+   margin-bottom: 100px;
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.team-link{
+  color: var(--black);
+}
+.section-sous-title{
+    text-align: center;
 }
