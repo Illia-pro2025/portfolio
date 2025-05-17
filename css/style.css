@@ -49,9 +49,19 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: var(--accent);
+  position: relative;
 }
 .nav-link:hover {
   color: var(--hover);
+}
+.nav-link:hover::after {
+  position: absolute;
+  
+  content: "";
+  display: block;
+  background-color: var(--hover);
+  height: 3px;
+  width: 100%;
 }
 .section-pretitle {
   font-family: "kaushan script";
@@ -67,6 +77,20 @@ body {
   font-size: 30px;
   color: var(--black);
   text-align: center;
+  position: relative;
+}
+.section-title::after {
+  position: absolute;
+  top: 77px;
+  left: 50%;
+  transform: translateX(-50%);
+ content: "";
+  display: block;
+  background-color: var(--hover);
+  height: 4px;
+  width: 60px;
+  
+  
 }
 .wrap-container {
   display: flex;
