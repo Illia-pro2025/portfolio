@@ -1,0 +1,49 @@
+
+.footer{
+    border-top: 1px solid #b6b6b6;
+    padding-top:10px ;
+    padding-bottom: 10px;
+     
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    color: #000000;
+}
+.footer a{
+    color: var(--hover);
+}
+.footer input{
+    width: 230px;
+    padding: 12px 10px;
+    border-radius: 0;
+    border: 1px solid var(--grey);
+
+
+}
+.footer input::placeholder{
+    font-family: "Roboto";
+font-weight: 300;
+font-style: italic;
+font-size: 14px;
+color: var(--grey);
+
+}
+.footer button{
+  font-family: "Montserrat";
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+color: var(--white);
+background-color: var(--accent);
+padding: 14px 38px 14px;
+border: none;
+text-transform: uppercase;
+}
+.footer form{
+    display: flex;
+   align-items: center;
+}
+.team{
+margin-bottom: 80px;
+}

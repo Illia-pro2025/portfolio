@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 68px;
+  }
+
+  .invisible {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+    gap: 55px;
+  }
+  .nav-link {
+    font-family: "montserrat" sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--accent);
+    position: relative;
+    &:hover {
+        color: var(--hover);
+      }
+    &:hover::after {
+        position: absolute;
+        
+        content: "";
+        display: block;
+        background-color: var(--hover);
+        height: 3px;
+        width: 100%;
+      }
+  }

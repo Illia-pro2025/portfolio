@@ -1,0 +1,12 @@
+.logo {
+    font-family: "monserrat";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0%;
+    color: var(--accent);
+    &:hover {
+        color: var(--hover);
+      }
+  }
+ 
