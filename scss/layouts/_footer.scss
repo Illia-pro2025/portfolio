@@ -11,13 +11,13 @@
     color: #000000;
 }
 .footer a{
-    color: var(--hover);
+    color: $hover;
 }
 .footer input{
     width: 230px;
     padding: 12px 10px;
     border-radius: 0;
-    border: 1px solid var(--grey);
+    border: 1px solid $grey;
 
 
 }
@@ -26,7 +26,7 @@
 font-weight: 300;
 font-style: italic;
 font-size: 14px;
-color: var(--grey);
+color: $grey;
 
 }
 .footer button{
@@ -34,8 +34,8 @@ color: var(--grey);
 font-weight: 700;
 font-size: 14px;
 text-align: center;
-color: var(--white);
-background-color: var(--accent);
+color: $white;
+background-color: $accent;
 padding: 14px 38px 14px;
 border: none;
 text-transform: uppercase;

@@ -4,9 +4,9 @@
     font-size: 30px;
     line-height: 1.2;
     letter-spacing: 0%;
-    color: var(--accent);
+    color: $accent;
     &:hover {
-        color: var(--hover);
+        color: $hover;
       }
   }
  

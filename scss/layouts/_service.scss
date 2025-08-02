@@ -3,7 +3,7 @@
     font-family: "kaushan script";
     font-weight: 400;
     font-size: 24px;
-    color: var(--black);
+    color: $black;
     text-align: center;
   }
   .section-title {
@@ -11,7 +11,7 @@
     font-family: "Montserrat";
     font-weight: 700;
     font-size: 30px;
-    color: var(--black);
+    color: $black;
     text-align: center;
     position: relative;
     &::after {
@@ -21,12 +21,17 @@
         transform: translateX(-50%);
        content: "";
         display: block;
-        background-color: var(--hover);
+        background-color: $hover;
         height: 4px;
         width: 60px;
         
         
       }
+  }
+  .service-icon{
+    width: 37px;
+    height: 37px;
+    fill: $accent;
   }
   .wrap-container {
     display: flex;
