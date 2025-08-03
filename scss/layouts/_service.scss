@@ -1,50 +1,18 @@
-
-.section-pretitle {
-    font-family: "kaushan script";
-    font-weight: 400;
-    font-size: 24px;
-    color: $black;
-    text-align: center;
-  }
-  .section-title {
-    margin-bottom: 110px;
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 30px;
-    color: $black;
-    text-align: center;
-    position: relative;
-    &::after {
-        position: absolute;
-        top: 77px;
-        left: 50%;
-        transform: translateX(-50%);
-       content: "";
-        display: block;
-        background-color: $hover;
-        height: 4px;
-        width: 60px;
-        
-        
-      }
-  }
-  .service-icon{
+.service {
+  &__icon {
     width: 37px;
     height: 37px;
     fill: $accent;
   }
-  .wrap-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .service-list {
+  &__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
-  .service-list > li {
+  &__text {
     width: 330px;
     margin-bottom: 100px;
   }
+}
+

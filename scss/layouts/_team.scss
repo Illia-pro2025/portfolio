@@ -1,28 +1,29 @@
-
-.team-list {
+.team {
+  margin-bottom: 80px;
+  &__list {
     display: flex;
     justify-content: space-between;
     text-align: center;
   }
-  
-  .section-sous-title {
-    text-align: center;
-    margin-bottom: 85px;
-  }
-  .team-list img {
-    margin-bottom: 30px;
-  }
-  .team-list h4 {
-    font-family: "Montserrat";
-    font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 11px;
-    color: $black;
-  }
-  .team-list p {
+  &__profession {
     font-family: "Roboto";
     font-weight: 300;
     font-size: 15px;
     text-align: center;
     font-style: italic;
   }
+  &__name {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 11px;
+    color: $black;
+  }
+  &__text {
+    text-align: center;
+    margin-bottom: 85px;
+  }
+  &__photo {
+    margin-bottom: 30px;
+  }
+}
